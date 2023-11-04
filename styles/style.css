@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.header__container .nav a {
+    color: var(--1, #1F2428);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 106.667% */
+    margin-right: 40px;
+    text-decoration: none; 
+    transition: all 0.5s;  
+}
+
+
+.header__container .nav a:hover {
+    color: blue;
+}
+
+.header__container .SignUp a  {
+    color: var(--1, #1F2428);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 106.667% */
+    text-decoration: none;
+    margin-right: 42px;
+    transition: all 0.5s;
+}
+
+.header__container .SignUp a:hover  {
+    padding: 15px 20px 17px;
+    background:rgb(0, 255, 0);
+    border-radius: 36px;
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    color: white;
+}
+
+.header__container .SignUp a img {
+    margin-right: 11px;
+}
+
+.header__container .SignUp button {
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 138.462% */
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    padding: 15px 10px 17px;
+    border: 2px solid #00D981;
+    transition: all 0.5s;
+}
+
+
+.header__container .SignUp button:hover {
+    background: #fff;
+    color: #00C97B;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 36px;
+    background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+}
+
+.hero-description h2 {
+    color: var(--4, #FFF);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 111.111% */
+    margin-left: 100px;
+    margin-bottom: 8px;
+}
+
+.hero-description p {
+    color: var(--4, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px; /* 210% */
+    margin-left: 100px;
+    margin-bottom: 32px;
+}
+
+.hero-description a {
+    color: var(--1, #FFF);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    margin-left: 100px;
+    padding: 24px 10px 20px;
+    text-decoration: none;
+    border: 2px solid #00D981;
+    transition: all 0.5s;
+}
+
+.hero-description a:hover {
+    background: transparent;
+    color: #00C97B;
+    transition: all 0.5s;
+}
+
+.links-decoration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links__container h4 {
+    color: var(--1, #1F2428);
+    margin-top: 160px;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px; /* 113.636% */
+    margin-bottom: 40px;
+}
+
+.links__container .shop-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 25px;
+    transition: all 0.5s;
+}
+
+.links-decoration {
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    width: 1400px;
+    height: 100px;
+}
+
+.links__container .shop-links:hover {
+    background: var(--6, #F2F6FC);
+}
+
+.links_pointer {
+    align-items: center;
+   transition: all 0.5s; 
+}
+
+.links_pointer img {
+    padding: 50px 27px;
+    /* margin-right: 27px;
+    margin-left: 27px; */
+}
+
+.links_pointer:hover {
+    background: var(--6, #F2F6FC);
+}
+
+.main__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.russia-post h3 {
+    color: var(--1, #1F2428);
+    margin-top: 134px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+}
+
+.russia-pocket {
+    width: 400px;
+    height: 120px;
+    border-radius: 16px;
+    background: #F2F6FC;
+}
+
+.pocket-money__russia h5 {
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+
+}
+
+.pocket-money__russia h3 {
+    color: var(--1, #1F2428);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+}
+
+.T-shirt {
+    display: flex;
+    align-items: center;
+}
+
+.pocket-jaket p {
+    color: var(--1, #1F2428);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; /* 133.333% */
+}
+
+.pocket-jaket h4 {
+    color: var(--1, #1F2428);
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+}
+
+.pocket-jaket h4::after {
+    content: "$119.56";
+    color: var(--7, #01CD7D);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.UK-post h3 {
+    color: var(--1, #1F2428);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    margin-top: 134px;
+}
+
+.UK-post h3::after {
+    content: "£7.79";
+    color: var(--7, #01CD7D);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.UK-pocket {
+    border-radius: 16px;
+    background: var(--6, #F2F6FC);
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 120px;
+}
+
+.pocket-money__UK h5 {
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    margin-left: 28px;
+}
+
+.pocket-money__UK h3 {
+    color: var(--7, #01CD7D);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    margin-left: 28px;
+}
+
+.shirt-money {
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    margin-bottom: 162px;
+}
+
+.footer_links {
+    margin-bottom: 160px;
+}
+
+.footer_links__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    width: 1400px;
+    height: 180px;
+    padding: 0px 51px ;
+}
+
+.footer_links--links {
+    display: flex;
+    align-items: center;
+    border-right: 2px  solid #C0C9D7
+}
+
+.footer_links--links img {
+    margin-right: 26px;
+}
+
+.footer_links--links h4 {
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+    padding-right: 10px;
+}
+
+.footer_links--links1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_links--links1 h4 {
+    color: var(--1, #1F2428);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+
+.footer_links--links1 img {
+    margin-right: 26px;
+}
